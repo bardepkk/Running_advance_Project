@@ -1,0 +1,36 @@
+[
+{
+		"id": "3",
+		"dat": {
+			"description": "To Verify login3",
+			"name": "ram",
+			"lastname":"dhok",
+			"add": "abcd",
+                        "cityname":"pune",
+                        "statename": "Maharashra" ,
+                        "code": "456",
+                        "number": "8823455675",
+                        "ssncode":"Raju",
+                        "uname": "Raju123",
+                        "pass": "Raju123", 
+                        "cpassword": "Raju123",
+		}
+	},
+	{
+		"id": "4",
+		"dat": {
+			"description": "To verfy login 4",
+			"name": "Prashant",
+			"lastname": "Dar",
+			"add": "rtf",
+                        "cityname": "Nagpur",
+                        "statename": "Maharashra",
+                        "code": "256",
+                        "number": "8523455675",
+                        "ssncode": "985",
+                        "uname": "Prash",
+                        "pass": "Prasha123@",
+                        "cpassword": "Prasha123@",
+		}
+	}
+]

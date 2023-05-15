@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+	<listeners>
+		<listener class-name="com.utility.ListenersImplementation" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="Test.newTest2">
+				<methods>
+					<include name="loginTest3">
+						<parameter name="testcaseid" value="3" />
+					</include>
+					<include name="loginTest4">
+						<parameter name="testcaseid" value="4" />
+					</include>
+				</methods>
+			</class>
+			<class name="Test.newTest">
+				<methods>
+					<include name="loginTest1">
+						<parameter name="testcaseid" value="1" />
+					</include>
+					<include name="loginTest2">
+						<parameter name="testcaseid" value="2" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
